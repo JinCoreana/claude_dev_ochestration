@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "dynatrace": {
+      "command": "npx",
+      "args": ["-y", "@dynatrace-oss/dynatrace-mcp-server@latest"],
+      "env": {
+        "DT_ENVIRONMENT": "${DT_ENVIRONMENT}",
+        "DT_PLATFORM_TOKEN": "${DT_PLATFORM_TOKEN}"
+      }
+    },
+    "atlassian": {
+      "type": "sse",
+      "url": "https://mcp.atlassian.com/v1/sse"
+    }
+  }
+}

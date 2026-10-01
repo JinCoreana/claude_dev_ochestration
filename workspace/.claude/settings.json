@@ -1,0 +1,17 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "teammateMode": "tmux",
+  "extraKnownMarketplaces": {
+    "team-marketplace": {
+      "source": { "source": "github", "repo": "tbc" }
+    }
+  },
+  "enabledPlugins": {
+    "dev-team@team-marketplace": true
+  },
+  "permissions": {
+    "deny": ["Read(./**/.env*)"]
+  }
+}

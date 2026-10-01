@@ -1,0 +1,11 @@
+{
+  "name": "team-marketplace",
+  "owner": { "name": "Jin Choi", "email": "itmustbejin@gmail.com" },
+  "plugins": [
+    {
+      "name": "dev-team",
+      "source": "./plugins/dev-team",
+      "description": "Reusable development team agents for implementation, testing, review, incident analysis, and Jira acceptance-criteria verification"
+    }
+  ]
+}

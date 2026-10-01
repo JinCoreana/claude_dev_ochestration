@@ -1,0 +1,6 @@
+{
+  "name": "dev-team",
+  "version": "0.1.0",
+  "description": "Full-stack dev team agents (TypeScript, Angular/React, Node.js + DynamoDB, Jest/Playwright, MR review, Dynatrace, Jira, incident comms)",
+  "author": { "name": "Jin Choi" }
+}
